@@ -2,8 +2,8 @@
 ![SwiftUI 3.0](https://img.shields.io/badge/SwiftUI-3.0-red)
 [![@artlast](https://img.shields.io/badge/telegram-%40artlast-blue)](https://t.me/artlast)
 
-# PryanikyText
-!![promo_gif](https://user-images.githubusercontent.com/62947475/170520961-8bc0a203-f157-474d-8323-c7fae90c7824.gif)
+# PryanikyTest
+![promo_gif](https://user-images.githubusercontent.com/62947475/170520961-8bc0a203-f157-474d-8323-c7fae90c7824.gif)
 
 ## Table of Contents
 * [General Info](#general-information)
