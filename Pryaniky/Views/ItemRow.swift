@@ -8,14 +8,6 @@
 import SwiftUI
 import Kingfisher
 
-struct ScaledButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .scaleEffect(configuration.isPressed ? 0.95 : 1)
-            .animation(.easeInOut, value: configuration.isPressed)
-    }
-}
-
 struct ItemRow: View {
     let item: ServerResponse.Data
     @Binding var selection: ServerResponse.Data.Item.Variant

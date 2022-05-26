@@ -15,6 +15,7 @@
 		B01B1514283F8C40007F47E1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B1513283F8C40007F47E1 /* APIService.swift */; };
 		B0454774283F999500AAE0F7 /* Main-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0454773283F999500AAE0F7 /* Main-ViewModel.swift */; };
 		B0454776283FA17100AAE0F7 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0454775283FA17100AAE0F7 /* ItemRow.swift */; };
+		B0454778283FD5A300AAE0F7 /* ScaledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0454777283FD5A300AAE0F7 /* ScaledButton.swift */; };
 		F769295D1ABE597DC3C91CFA /* Pods_Pryaniky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AB4D1BF47609DC0167CF1E /* Pods_Pryaniky.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		B01B1513283F8C40007F47E1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		B0454773283F999500AAE0F7 /* Main-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main-ViewModel.swift"; sourceTree = "<group>"; };
 		B0454775283FA17100AAE0F7 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		B0454777283FD5A300AAE0F7 /* ScaledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledButton.swift; sourceTree = "<group>"; };
 		B1A3A09B30A7039552A81D98 /* Pods-Pryaniky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pryaniky.release.xcconfig"; path = "Target Support Files/Pods-Pryaniky/Pods-Pryaniky.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				B01B150F283F8BDE007F47E1 /* Models */,
 				B01B1510283F8BEA007F47E1 /* Views */,
 				B01B1511283F8BFB007F47E1 /* ViewModels */,
+				B0454779283FD5B900AAE0F7 /* Styles */,
 				B01B1503283F8995007F47E1 /* Assets.xcassets */,
 				B01B1505283F8995007F47E1 /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				B01B1513283F8C40007F47E1 /* APIService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		B0454779283FD5B900AAE0F7 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B0454777283FD5A300AAE0F7 /* ScaledButton.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 		DBE799FA0947EE58A4A2A040 /* Frameworks */ = {
@@ -252,6 +263,7 @@
 				B01B1502283F8993007F47E1 /* Main.swift in Sources */,
 				B01B150E283F8BD8007F47E1 /* ServerResponse.swift in Sources */,
 				B0454774283F999500AAE0F7 /* Main-ViewModel.swift in Sources */,
+				B0454778283FD5A300AAE0F7 /* ScaledButton.swift in Sources */,
 				B0454776283FA17100AAE0F7 /* ItemRow.swift in Sources */,
 				B01B1514283F8C40007F47E1 /* APIService.swift in Sources */,
 				B01B1500283F8993007F47E1 /* PryanikyApp.swift in Sources */,
