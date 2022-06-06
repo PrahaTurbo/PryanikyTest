@@ -11,7 +11,12 @@
 * [Requirements](#requirements)
 
 ## General Information
-This app is the result of a test exercise for an interview at Pryaniky.com.
+This app is the result of a test task for an interview at Pryaniky.com.
+
+Task (on russian):
+
+Сделать приложение, которое будет получать с сервера json-файл cо списком данных нескольких типов (ex: картинка, блок текста, селектор одного варианта из N) и списком кого, какие блоки данных и в каком порядке надо отобразить. 
+Отображать список указанных элементов, и, при клике на них (или выборе одного из вариантов ответа), выводить информацию, что за объект инициировал событие (например: id, имя)
 
 ## Technologies Used
 * Swift 5.6
